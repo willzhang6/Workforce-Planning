@@ -1,0 +1,13 @@
+title: RePlayTransportationPlan4
+projectPath: /Users/xinyuzho/Projects/OptTalentForce/test
+startTime: 2018-01-21
+endTime: 2018-11-30
+timeStep: 10
+outputTimeStep: 30
+MCSampleSize: 1000
+MCSampleSize: 1000
+MCOutQuantiles: [25,50,75]
+eventPreditionModels:
+  attritionModel: {model: "attritionModel", type: "survival", file: "attrition_model.csv"}
+  promotionModel: {model: "promotionModel", type: "survival", file: "promotion_model.csv"}
+  transferModel: {model: "transferModel", type: "survival", file: "transfer_model.csv"}
